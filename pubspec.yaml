@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   get: ^4.3.8
   shared_preferences: ^2.0.8
+  flutter_svg: ^0.23.0+1
 
 dev_dependencies:
   flutter_test:
@@ -76,12 +77,12 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Helvatic
+    - family: Helvetica
       fonts:
-        - asset: assets/fonts/Helvatic.ttf
-        - asset: assets/fonts/Helvatic-Bold.ttf
+        - asset: assets/fonts/Helvetica.ttf
+        - asset: assets/fonts/Helvetica-Bold.ttf
           weight: 700
-        - asset: assets/fonts/Helvatic-light.ttf
+        - asset: assets/fonts/Helvetica-light.ttf
           weight: 300
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
