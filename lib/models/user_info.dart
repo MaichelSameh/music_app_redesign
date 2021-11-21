@@ -35,7 +35,8 @@ class UserInfo {
 
   UserInfo.empty() {
     _name = "Emma Mason";
-    _imageURL = "imageURL";
+    _imageURL =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ac-elmnnSJYqgZNvT3WErhi5jU59ebCRzg&usqp=CAU";
     _userName = "@" + name.replaceAll(" ", "");
     _appleId = "appleId";
     _facebook = "facebook";

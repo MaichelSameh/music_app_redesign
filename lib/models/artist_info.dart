@@ -24,7 +24,8 @@ class ArtistInfo {
   ArtistInfo.empty() {
     _about = "about";
     _id = 0;
-    _imageURL = "imageURL";
+    _imageURL =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOVj4H7KD4m5lgmsfdCLP3iJMM71wEfyT7QQ&usqp=CAU";
     _name = "name";
   }
 

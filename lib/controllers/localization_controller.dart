@@ -70,7 +70,6 @@ class AppLocalizationController extends GetxController {
 
     //decoding the json data
     Map<String, dynamic> mappedJson = json.decode(jsonStringValues);
-
     //extracting the data from decoded data into a global variable
     _localizedValues = mappedJson
         .map((key, value) => MapEntry<String, String>(key, value.toString()));
@@ -123,7 +122,7 @@ class AppLocalizationController extends GetxController {
     //changing the current locale
     _locale = locale;
     //loading the translated data from the json file
-    load(locale);
+    await load(locale);
     update();
   }
 }

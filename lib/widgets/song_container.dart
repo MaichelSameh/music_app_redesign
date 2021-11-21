@@ -79,6 +79,7 @@ class _SongContainerState extends State<SongContainer> {
         Container(
           width: _size.width(width),
           height: _size.height(height),
+          margin: EdgeInsets.symmetric(vertical: _size.height(7)),
           decoration: BoxDecoration(
               boxShadow: MyPalette.secondary_shadow,
               borderRadius: BorderRadius.circular(_size.width(borderRadius))),
@@ -114,6 +115,7 @@ class _SongContainerState extends State<SongContainer> {
               CircleAvatar(
                 backgroundColor: Colors.grey[350],
                 radius: _size.width(20),
+                backgroundImage: NetworkImage(widget.song.imageURL),
               ),
               SizedBox(width: _size.width(12)),
               buildSongInfo(

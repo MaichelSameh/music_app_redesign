@@ -15,8 +15,6 @@ class CustomAppBar extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(
         top: _size.height(74),
-        right: _size.width(21),
-        left: _size.width(21),
       ),
       padding: EdgeInsets.symmetric(horizontal: _size.width(20)),
       alignment: Alignment.center,
@@ -38,8 +36,8 @@ class CustomAppBar extends StatelessWidget {
           const Spacer(),
           CircleAvatar(
             backgroundColor: Colors.grey[350],
-            // backgroundImage:
-            //     NetworkImage(Get.find<UserController>().currentUser.imageUrl),
+            backgroundImage:
+                NetworkImage(Get.find<UserController>().currentUser.imageUrl),
           ),
         ],
       ),

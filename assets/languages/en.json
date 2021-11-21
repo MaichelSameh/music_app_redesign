@@ -4,5 +4,10 @@
     "radio": "Radio",
     "downloads": "Downloads",
     "for_you": "For You",
-    "library": "Library"
+    "library": "Library",
+    "albums": "Albums",
+    "songs": "Songs",
+    "artists": "Artists" ,
+    "recently_played": "Recently played",
+    "see_all": "See all"
 }

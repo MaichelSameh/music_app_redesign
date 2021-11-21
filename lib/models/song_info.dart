@@ -37,7 +37,8 @@ class SongInfo {
     _albumID = 0;
     _durationInMilleSeconds = 4000;
     _id = 0;
-    _imageURL = "imageURL";
+    _imageURL =
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCZCQ8Geml_ErHofuVcl7oYAxYwyA1U0CxAA&usqp=CAU";
     _listenBy = 0;
     _name = "name";
     _liked = false;
